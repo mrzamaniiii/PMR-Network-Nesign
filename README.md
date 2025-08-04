@@ -1,6 +1,6 @@
 # 📡 PMR Network Design for Shahr-e Bābak
 
-This repository presents the design and simulation of a **Private Mobile Radio (PMR)** network using **Radio Mobile** software, covering an area of **100 km x 100 km** centered around **Shahr-e Bābak**, Iran.
+This repository presents the design and simulation of a **Private Mobile Radio (PMR)** network using Radio Mobile software, covering an area of 100 km x 100 km centered around Shahr-e Bābak, Iran.
 
 The goal of this project is to ensure robust digital voice and data coverage using a minimal yet strategically optimized repeater network.
 
@@ -40,7 +40,7 @@ The goal of this project is to ensure robust digital voice and data coverage usi
 
 ### 🔹 Microwave Links
 - Frequency Bands: 7–10 GHz (Long Haul), up to 38 GHz (Urban)
-- Minimum requirement: Each repeater must connect to at least **2 others**
+- Minimum requirement: Each repeater must connect to at least 2 others
 - Antenna Gain: 36.7 dBi
 - Wind-resistant industrial design
 
@@ -48,15 +48,15 @@ The goal of this project is to ensure robust digital voice and data coverage usi
 
 ## 🌍 Coverage Results
 
-- **Total Area Covered**: ~9978 km² (**99.78%** of the target region)
-- All repeaters have **10 dB+ link margin** over modulation threshold
-- Full connectivity and redundancy via **microwave loops**
+- **Total Area Covered**: ~9978 km² (99.78% of the target region)
+- All repeaters have 10 dB+ link margin over modulation threshold
+- Full connectivity and redundancy via microwave loops
 
 ---
 
 ## ✅ Key Highlights
 
-- 📶 Full PMR network coverage with **just 3 repeater stations**
+- 📶 Full PMR network coverage with just 3 repeater stations+*
 - 🧭 Terrain-aware positioning using elevation & LoS
 - 🔁 VHF downlink with microwave backhaul for redundancy
 - 📈 High signal integrity & low infrastructure cost
