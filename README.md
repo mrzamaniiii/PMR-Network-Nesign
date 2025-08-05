@@ -1,62 +1,54 @@
-# 📡 PMR Network Design for Shahr-e Bābak
+# Shahr-e Bābak PMR Network Design
 
-This repository presents the design and simulation of a **Private Mobile Radio (PMR)** network using Radio Mobile software, covering an area of 100 km x 100 km centered around Shahr-e Bābak, Iran.
-
-The goal of this project is to ensure robust digital voice and data coverage using a minimal yet strategically optimized repeater network.
-
----
-
-## 📁 Contents
-
-- 📝 `Wireless And Mobile Propagation Project.pdf` – Complete project report with all configurations and coverage analysis.
-- 🎞️ `Wireless And Mobile Propagation Project.pptx` – Presentation slides summarizing network design and results.
-- 📐 Diagrams and simulation results from Radio Mobile (included in PDF).
-- 📶 Technical specifications of all VHF and microwave components.
+Design and simulation of a Private Mobile Radio (PMR) network for Shahr-e Bābak City, Iran, using Radio Mobile software.  
+The project features VHF and microwave link configurations, optimized repeater placement, and comprehensive coverage analysis (~99.78% area coverage).
 
 ---
 
-## 🛰️ Technologies Used
-
-- **Radio Mobile software** for link and coverage simulation
-- **ETSI DMR (Digital Mobile Radio)** for VHF communication
-- **Microwave backhaul** operating at 10 GHz
-- **Motorola DM4000e** and **SLR5500** equipment specifications
+## Project Overview
+This project aims to deliver a robust, wide-area PMR network for both digital voice and data transmission.  
+The network covers a 100 km × 100 km area with Shahr-e Bābak at the center, providing reliable communication between users and the operations center.
 
 ---
 
-## 📡 Network Overview
+## Network Design
 
-### 🔹 Mobile Unit
-- Frequency: 166 MHz (VHF)
-- Transmit Power: 40 W
-- Sensitivity: 0.18 µV
-- Antenna Gain: 0 dBi
+### VHF Links
+- **Frequency:** 166 MHz  
+- **Modulation:** ETSI Digital Mobile Radio (DMR)  
+- **Mobile Units:** Motorola DM4000e (40 W, sensitivity 0.18 µV)  
+- **Repeaters:** Motorola SLR5500 (50 W, gain 5 dBi, height 10 m)
 
-### 🔹 Repeater
-- Type: Motorola SLR5500 (DMR)
-- Output Power: 50 W
-- Gain: 5 dBi
-- Height: 10 meters
-
-### 🔹 Microwave Links
-- Frequency Bands: 7–10 GHz (Long Haul), up to 38 GHz (Urban)
-- Minimum requirement: Each repeater must connect to at least 2 others
-- Antenna Gain: 36.7 dBi
-- Wind-resistant industrial design
+### Microwave Links
+- **Frequencies:** 7–38 GHz (depending on link distance)  
+- **Configuration:** Each repeater connects to at least two others for redundancy  
+- **Antennas:** THP 08 100 D WB, gain 36.7 dBi, diameter 0.8 m
 
 ---
 
-## 🌍 Coverage Results
-
-- **Total Area Covered**: ~9978 km² (99.78% of the target region)
-- All repeaters have 10 dB+ link margin over modulation threshold
-- Full connectivity and redundancy via microwave loops
+## Results
+- **Coverage Area:** ~9978 km² (**99.78%** of target region)  
+- **Safety Margin:** ≥ 10 dB above modulation threshold for all links  
+- **Repeaters Used:** 3 strategically placed at elevated sites  
+- **Microwave Connectivity:** All links clear line-of-sight
 
 ---
 
-## ✅ Key Highlights
+## Project Files
+- **PDF & PPTX Report** – Detailed technical documentation and presentation  
+- **Radio Mobile Files** – `.dat`, `.net`, `.geo`, `.inf`, and coverage maps (`.bmp`)  
 
-- 📶 Full PMR network coverage with just 3 repeater stations+*
-- 🧭 Terrain-aware positioning using elevation & LoS
-- 🔁 VHF downlink with microwave backhaul for redundancy
-- 📈 High signal integrity & low infrastructure cost
+---
+
+## Key Features
+- Wide-area digital voice & data PMR network
+- Optimized repeater placement for cost-efficiency
+- Dual VHF & microwave link design
+- High reliability with redundancy
+- Scalable for future expansions
+
+## 👤 Authors
+- Mohammadreza Zamani  
+- Asal Abbas Nejad Fard  
+
+Supervisor: Prof. Michele D’Amico
