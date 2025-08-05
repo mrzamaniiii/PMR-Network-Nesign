@@ -46,9 +46,3 @@ The network covers a 100 km × 100 km area with Shahr-e Bābak at the center, pr
 - Dual VHF & microwave link design
 - High reliability with redundancy
 - Scalable for future expansions
-
-## 👤 Authors
-- Mohammadreza Zamani  
-- Asal Abbas Nejad Fard  
-
-Supervisor: Prof. Michele D’Amico
