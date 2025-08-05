@@ -1,3 +1,5 @@
+<img width="1027" height="290" alt="Screenshot 2025-08-05 115731" src="https://github.com/user-attachments/assets/c870c36c-7e76-4e11-9fb9-77ca41dd2afe" />
+
 # Shahr-e Bābak PMR Network Design
 
 Design and simulation of a Private Mobile Radio (PMR) network for Shahr-e Bābak City, Iran, using Radio Mobile software.  
