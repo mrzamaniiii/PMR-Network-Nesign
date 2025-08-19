@@ -5,13 +5,9 @@
 Design and simulation of a Private Mobile Radio (PMR) network for Shahr-e Bābak City, Iran, using Radio Mobile software.  
 The project features VHF and microwave link configurations, optimized repeater placement, and comprehensive coverage analysis (~99.78% area coverage).
 
----
-
 ## Project Overview
 This project aims to deliver a robust, wide-area PMR network for both digital voice and data transmission.  
 The network covers a 100 km × 100 km area with Shahr-e Bābak at the center, providing reliable communication between users and the operations center.
-
----
 
 ## Network Design
 
@@ -26,21 +22,15 @@ The network covers a 100 km × 100 km area with Shahr-e Bābak at the center, pr
 - **Configuration:** Each repeater connects to at least two others for redundancy  
 - **Antennas:** THP 08 100 D WB, gain 36.7 dBi, diameter 0.8 m
 
----
-
 ## Results
 - **Coverage Area:** ~9978 km² (**99.78%** of target region)  
 - **Safety Margin:** ≥ 10 dB above modulation threshold for all links  
 - **Repeaters Used:** 3 strategically placed at elevated sites  
 - **Microwave Connectivity:** All links clear line-of-sight
 
----
-
 ## Project Files
 - **PDF & PPTX Report** – Detailed technical documentation and presentation  
 - **Radio Mobile Files** – `.dat`, `.net`, `.geo`, `.inf`, and coverage maps (`.bmp`)  
-
----
 
 ## Key Features
 - Wide-area digital voice & data PMR network
